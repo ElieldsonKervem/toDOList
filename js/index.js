@@ -16,7 +16,7 @@ function catchTask() {
 
     }// Se o campo de entrada estiver vazio, não fazer nada
     tasks.push(input.value);
-    console.log(tasks);
+   
 }
 
 function creatList() {
