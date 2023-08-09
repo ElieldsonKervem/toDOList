@@ -12,7 +12,7 @@ form.addEventListener('submit', function (e) {
 
 function catchTask() {
     if (input.value === '') {
-        return;
+        return; 
     }
     tasks.push(input.value);
 
@@ -26,5 +26,10 @@ function creatList() {
         ul.appendChild(li);
     });
 
+}
+function deleteTask() {
+ 
+         tasks.pop(input.value);
+        ul.lastChild.remove();  
 }
 

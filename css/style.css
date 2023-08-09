@@ -271,5 +271,8 @@ button:focus + .material-icon.btn{
     position: absolute;
     top: 10;
 }
+#deleteBtn{
+   width: 100%;
+}
 
 
